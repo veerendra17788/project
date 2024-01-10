@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="=UTF-8">
+  <meta content="=author" name="vk">
+  <title>Food FeedBack</title>
+  <link rel="stylesheet" href="vl.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!--Bootstramp start-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!--Bootstrap end-->
+</head>
+
+<body>
+
+
+
+
+  <div id="sectionfistpage">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png"
+            class="foodlogo" />
+        </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" id="navItem1" href="#wcuSection">
+              Home
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="#followUsSection" id="navItem4" onclick="display('sectionLogIn')">Login</a>
+            <a class="nav-link" href="#followUsSection" id="navItem4" onclick="display('sectionSignUp')">Signup</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <h1 class="h-f">Food Waste Management</h1>
+    <div class="d-flex flex-row ">
+      <p class="para">
+        Raising awareness about food wastage is crucial in fostering a more sustainable and responsible approach to
+        consumption. In today's world, where millions suffer from hunger and resources are strained, the staggering
+        amount of food that goes to waste is a pressing concern. By understanding the consequences of our actions,
+        individuals can make informed choices to reduce their impact on this issue. Food wastage not only contributes to
+        the depletion of finite resources such as water and energy but also exacerbates environmental problems like
+        greenhouse gas emissions from decomposing organic waste in landfills. Moreover, it reflects a disregard for the
+        efforts that go into food production, from farming to transportation, further emphasizing the need for a mindful
+        and conscientious approach to consumption.<br>
+        Efforts to promote awareness on food wastage can take various forms, from educational campaigns to community
+        initiatives. Schools, workplaces, and community organizations can play a pivotal role in disseminating
+        information about the consequences of excessive food disposal. Encouraging responsible shopping habits, proper
+        storage techniques, and creative ways to utilize leftovers can contribute to minimizing waste at the household
+        level. Additionally, supporting and engaging with local food banks and charities can redirect surplus food to
+        those in need, fostering a sense of social responsibility. Ultimately, a collective understanding of the impact
+        of food wastage is essential for building a more sustainable future.</p>
+
+      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="home-logo" />
+    </div>
+
+  </div>
+  </div>
+
+  <div id="sectionHome">
+    <div class="wcu-section pt-5 pb-5"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png"
+                  class="foodlogo" />
+              </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-link active" id="navItem1" href="#wcuSection">
+                    Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  <a class="nav-link" href="#exploreMenuSection" id="navItem2" onclick="display('sectionMenu')">Explore
+                    Menu</a>
+                  <a class="nav-link" href="#deliveryPaymentSection" id="navItem3"
+                    onclick="display('sectionFeedBack')">FeedBack</a>
+                  <a class="nav-link" href="#followUsSection" id="navItem4" onclick="followUsSection">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+
+    <h1 class="hf">Food Waste Management</h1>
+    <div class="d-flex flex-row ">
+      <p class="para">
+        Raising awareness about food wastage is crucial in fostering a more sustainable and responsible approach to
+        consumption. In today's world, where millions suffer from hunger and resources are strained, the staggering
+        amount of food that goes to waste is a pressing concern. By understanding the consequences of our actions,
+        individuals can make informed choices to reduce their impact on this issue. Food wastage not only contributes to
+        the depletion of finite resources such as water and energy but also exacerbates environmental problems like
+        greenhouse gas emissions from decomposing organic waste in landfills. Moreover, it reflects a disregard for the
+        efforts that go into food production, from farming to transportation, further emphasizing the need for a mindful
+        and conscientious approach to consumption.<br>
+        Efforts to promote awareness on food wastage can take various forms, from educational campaigns to community
+        initiatives. Schools, workplaces, and community organizations can play a pivotal role in disseminating
+        information about the consequences of excessive food disposal. Encouraging responsible shopping habits, proper
+        storage techniques, and creative ways to utilize leftovers can contribute to minimizing waste at the household
+        level. Additionally, supporting and engaging with local food banks and charities can redirect surplus food to
+        those in need, fostering a sense of social responsibility. Ultimately, a collective understanding of the impact
+        of food wastage is essential for building a more sustainable future.</p>
+
+      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="home-logo" />
+    </div>
+
+
+    <div style="background-size: cover; width: 100vw;">
+      <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="follow-us-section-heading">Contact Us</h1>
+            <div class="text-center">
+              <p>foodmunch1313@gmail.com</p>
+              <p>foodmunch@gmail.com</p>
+              <p>foodmunchwt5354@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-12">
+            <h1 class="follow-us-section-heading">Follow Us</h1>
+          </div>
+          <div class="col-12">
+            <div class="d-flex flex-row justify-content-center">
+              <div class="follow-us-icon-container m-4">
+                <i class="fab fa-twitter icon"></i>
+              </div>
+              <div class="follow-us-icon-container m-4">
+                <i class="fab fa-instagram icon"></i>
+              </div>
+              <div class="follow-us-icon-container m-4">
+                <i class="fab fa-facebook icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-section pt-5 pb-5" style="background-size: cover; width: 100vw;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-logo-light.png"
+              class="food-munch-logo" />
+            <h1 class="footer-section-mail-id">orderfood@foodmunch.com</h1>
+            <p class="footer-section-address">
+              123 Ayur Vigyan Nagar, New Delhi, India.
+            </p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+  </div>
+
+  </div>
+
+  <div id="sectionLogin">
+    <div class="login">
+
+      <button class="butn" onclick="display('sectionLogIn')">log in</button>
+      <button class="butn" onclick="display('sectionSignUp')">sign up</button>
+    </div>
+  </div>
+
+  <div id="sectionLogIn">
+    <div class="card1">
+      <div class="icard1">
+        <h1 class="cardh">Login Form</h1>
+        <div class="field">
+          <span class="fa fa-user"></span>
+          <input type="text" class="pass1" required placeholder="Email or Phone">
+        </div>
+        <div class="field">
+          <span class="fa fa-lock"></span>
+          <input class="pass1" type="password" required placeholder="Password">
+        </div>
+        <div>
+          <a href="#" class="pass">Forgot Password?</a>
+        </div>
+        <button class="cbtn" onclick="display('sectionHome')">LOGIN</button>
+        <div class="log">
+          Or login with
+        </div>
+        <div class="d-flex flex-row">
+          <div class="facebook">
+            <i class="fab fa-facebook-f "><span class="cf">Facebook</span></i>
+          </div>
+          <div class="instagram">
+            <i class="fab fa-instagram "><span class="cf">Instagram</span></i>
+          </div>
+        </div>
+        <div class="signup">
+          Don't have account?
+          <a href="#">Signup Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sectionSignUp">
+    <div class="card1">
+      <div class="icard1">
+        <h1 class="cardh">SIGNUP Form</h1>
+        <div class="field">
+          <span class="fa fa-user"></span>
+          <input type="text" class="pass1" required placeholder="Email or Phone">
+        </div>
+        <div class="field">
+          <span class="fa fa-lock"></span>
+          <input class="pass1" type="password" required placeholder="Password">
+        </div>
+        <div>
+          <a href="#" class="pass">Forgot Password?</a>
+        </div>
+        <button class="cbtn" onclick="display('sectionHome')">SIGNUP</button>
+        <div class="log">
+          Or login with
+        </div>
+        <div class="d-flex flex-row">
+          <div class="facebook">
+            <i class="fab fa-facebook-f "><span class="cf">Facebook</span></i>
+          </div>
+          <div class="instagram">
+            <i class="fab fa-instagram "><span class="cf">Instagram</span></i>
+          </div>
+
+        </div>
+        <div class="signup">
+          Don't have account?
+          <a href="#">Signup Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div id="sectionFeedBack" class="form-123">
+    <div class="card-fd">
+      <div>
+        <ul class="form-section page-section">
+          <h1 class="form-header">We appreciate your feedback!</h1>
+
+          <div class="d-flex flex-row">
+            <li class="form-line mr-5" id="id_15"><label class="form-label" id="label_15" for="input_15"> Location:
+              </label>
+              <div id="cid_15" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_15"
+                  name="q15_locationYou" style="width:400px; border-radius: 4px; height:40px;" data-component="dropdown"
+                  aria-label="Location:">
+                  <option value="">Please Select</option>
+                  <option value="Location #1">College Hostel</option>
+                  <option value="Location #2">PG Hostel</option>
+
+                </select> </div>
+            </li>
+            <li class="form-line "><label> Time Visted </label>
+              <div class="form-input-wide" data-layout="full">
+                <div role="group">
+                  <input type="checkbox" id="myCheckbox" />
+                  <label for="myCheckbox" class="mr-3">Breakfast</label>
+                  <input type="checkbox" id="myCheckbox" />
+                  <label for="myCheckbox" class="mr-3">Lunch</label>
+                  <input type="checkbox" id="myCheckbox" />
+                  <label for="myCheckbox" class="mr-3">Dinner</label>
+                </div>
+              </div>
+            </li>
+          </div>
+
+          <li class="form-line m-3" data-type="control_radio" id="id_7">
+            <label class="form-label form-label-top form-label-auto" for="input_7_0">Food Quality</label>
+            <div class="form-input-wide">
+              <div class="form-multiple-column" role="group" aria-labelledby="label_7" data-component="radio">
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Excellent</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Good</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Average</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Dissatisfied</label>
+
+                <!-- Repeat the pattern for other radio options -->
+
+              </div>
+            </div>
+          </li>
+          <li class="form-line m-3" data-type="control_radio" id="id_7">
+            <label class="form-label form-label-top form-label-auto" for="input_7_0">Taste</label>
+            <div class="form-input-wide">
+              <div class="form-multiple-column" role="group" aria-labelledby="label_7" data-component="radio">
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Excellent</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Good</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Average</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Dissatisfied</label>
+
+                <!-- Repeat the pattern for other radio options -->
+
+              </div>
+            </div>
+          </li>
+          <li class="form-line m-3" data-type="control_radio" id="id_7">
+            <label class="form-label form-label-top form-label-auto" for="input_7_0">Cleanliness</label>
+            <div class="form-input-wide">
+              <div class="form-multiple-column" role="group" aria-labelledby="label_7" data-component="radio">
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Excellent</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Good</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Average</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Dissatisfied</label>
+
+                <!-- Repeat the pattern for other radio options -->
+
+              </div>
+            </div>
+          </li>
+          <li class="form-line m-3" data-type="control_radio" id="id_7">
+            <label class="form-label form-label-top form-label-auto" for="input_7_0">Service</label>
+            <div class="form-input-wide">
+              <div class="form-multiple-column" role="group" aria-labelledby="label_7" data-component="radio">
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Excellent</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Good</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Average</label>
+                <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+                <label for="input_7_0" class="mr-3">Dissatisfied</label>
+
+                <!-- Repeat the pattern for other radio options -->
+
+              </div>
+            </div>
+            <!-- </li>
+    <li class="form-line m-3" data-type="control_radio" id="id_7">
+      <label class="form-label form-label-top form-label-auto" for="input_7_0">Speed of Service</label>
+      <div class="form-input-wide">
+        <div class="form-multiple-column" role="group" aria-labelledby="label_7" data-component="radio">
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Excellent</label>
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Good</label>
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Average</label>
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Dissatisfied</label>
+    
+          Repeat the pattern for other radio options
+    
+        </div>
+      </div>
+    </li> -->
+            <!-- <li class="form-line m-3" data-type="control_radio" id="id_7">
+      <label class="form-label form-label-top form-label-auto" for="input_7_0">Value</label>
+      <div class="form-input-wide">
+        <div class="form-multiple-column" role="group" aria-labelledby="label_7" data-component="radio">
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Excellent</label>
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Good</label>
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Average</label>
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Dissatisfied</label> -->
+
+            <!-- Repeat the pattern for other radio options -->
+            <!--     
+        </div>
+      </div> -->
+            <!-- </li>
+    <li class="form-line m-3" data-type="control_radio" id="id_7">
+      <label class="form-label form-label-top form-label-auto" for="input_7_0">Overall Experience</label>
+      <div class="form-input-wide">
+        <div class="form-multiple-column" role="group" aria-labelledby="label_7" data-component="radio">
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Excellent</label>
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Good</label>
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Average</label>
+          <input type="radio" id="input_7_0" name="q7_foodQuality7" value="Excellent">
+          <label for="input_7_0" class="mr-3">Dissatisfied</label>
+    
+           Repeat the pattern for other radio options 
+    
+        </div>
+      </div> -->
+          </li>
+
+          <!-- Repeat the pattern for other questions -->
+
+          <li class="form-line" data-type="control_textarea" id="id_9">
+            <label class="form-label form-label-top form-label-auto" for="input_9">Any comments, questions or
+              suggestions?</label>
+            <div class="form-input-wide">
+              <textarea id="input_9" class="form-textarea custom-hint-group form-custom-hint p-1 m-2"
+                name="q9_anyComments" style="width:60vw;height:163px;border-radius: 5px; " data-component="textarea"
+                placeholder="Type here..." spellcheck="false"></textarea>
+            </div>
+          </li>
+        </ul>
+        <div class="text-center">
+          <button class="btn-feedback" onclick="display('sectionHome')">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+  <div id="sectionMenu">
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <h1 class="menu-section-heading">Today's Menu</h1>
+          </div>
+          <h1 class="col-12">Breakfast</h1>
+          <div class="col-3 ">
+            <div class="shadow menu-item-card p-3 mb-3">
+              <img
+                src="https://imgs.search.brave.com/MZronuwF-vqNMKUpaz7hUg8YPYFVhsiWNbxVRUS6g1k/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/amV5YXNocmlza2l0/Y2hlbi5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTIvMDkv/SU1HXzQ4MzAtMTA2/OHg3MTIuanBn"
+                class="menu-item-image w-100" />
+              <h1 class="menu-card-title">Idli</h1>
+              <a href="" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-3 ">
+            <div class="shadow menu-item-card p-3 mb-3">
+              <img
+                src="https://imgs.search.brave.com/cF-6vMKQyUsRSI3Wb0YNRnpjwHnmw_GCEb423qD27cg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzg2LzMzLzcy/LzM2MF9GXzE4NjMz/NzIwOV85cmJjTUx1/M3dHQ0ROYUVvSzFq/TzBhTnpiMHB2N1hz/Ny5qcGc"
+                class="menu-item-image w-100" />
+              <h1 class="menu-card-title">Dosa</h1>
+              <a href="" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <h1 class="col-12">Lunch</h1>
+          <div class="col-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://imgs.search.brave.com/rk72ojxcd7-HeZGofOANLY5M0QeRnHHSQEQ_4j6svFM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTkx/OTI1MDk4L3Bob3Rv/L2Zpc2gtYmlyeWFu/aS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9YUNYcDFiMVZs/R3c0WWpQWV8wRXBE/OXFDdHpUZUZpNEJ5/RGZkX3ROeGdPRT0"
+                class="menu-item-image w-100" />
+              <h1 class="menu-card-title">Biryani</h1>
+              <a href="" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://imgs.search.brave.com/5KPxBYr44Lza3zdNkqZOHEoMq6WkhkpxRJv8jeg7Nc8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzkxLzUxLzkx/LzM2MF9GXzkxNTE5/MTM1X0RsYk5jRFNu/cUpBYkQ1M1VLcWtk/ZG5GZzBMVjJnS1Nq/LmpwZw"
+                class="menu-item-image w-100" />
+              <h1 class="menu-card-title">Rice</h1>
+              <a href="" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://imgs.search.brave.com/v2wx885-vsYfTS8BwauU5usnfoiYbcdRxQfn7wNjIhQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5yYWNxLmNvbS5h/dS8tL21lZGlhL3Jh/Y3Fncm91cG12Yy9m/ZWF0dXJlL2FydGlj/bGUvZmVhdHVyZWRp/bWFnZXMvb3V0LWFu/ZC1hYm91dC9mb29k/X2EtZ3VpZGUtdG8t/aW5kaWFuLWN1cnJp/ZXNfMS5qcGc_aD00/ODcmdz04MDAmcmV2/PTFlYjAyMzQyMWE1/NTQzYmE5NTgzMjE3/MzgxMGZhOGM5Jmhh/c2g9QjAxMkJCMkVF/QTgxRTY2NDU2MEE4/NTJGOTJCOTMxNTVE/NEU3MzMwMw"
+                class="menu-item-image w-100" />
+              <h1 class="menu-card-title">Curries</h1>
+              <a href="" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h1 class="col-12">Dinner</h1>
+          <div class="col-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://imgs.search.brave.com/5KPxBYr44Lza3zdNkqZOHEoMq6WkhkpxRJv8jeg7Nc8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzkxLzUxLzkx/LzM2MF9GXzkxNTE5/MTM1X0RsYk5jRFNu/cUpBYkQ1M1VLcWtk/ZG5GZzBMVjJnS1Nq/LmpwZw"
+                class="menu-item-image w-100" />
+              <h1 class="menu-card-title">Rice</h1>
+              <a href="" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-3 ">
+            <div class="shadow menu-item-card p-3 mb-3">
+              <img
+                src="https://imgs.search.brave.com/PTYLR3v4qtCtXkgI4-E295GLaBongWvObIU8HY5v1y0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlc3BydWNlZWF0/cy5jb20vdGhtYi8y/SVNPa2Q2Y0RWal9q/TU1xME5ORWs4el9L/YTQ9LzMwMHgyMjUv/ZmlsdGVyczpub191/cHNjYWxlKCk6bWF4/X2J5dGVzKDE1MDAw/MCk6c3RyaXBfaWNj/KCkvaW5kaWFuLWxh/bWItY3VycnktMTk1/NzU2MC1oZXJvLTAx/LTBkNWRkOGVkNjYw/MTQ2NWRhYTA1Y2U4/MTBlNjZiNzMzLmpw/Zw"
+                class="menu-item-image w-100" />
+              <h1 class="menu-card-title">Curries</h1>
+              <a href="" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://imgs.search.brave.com/lg2OG8U4BG8m7RKpoyah6-Ph5qts-YBrzRGEIWzBarc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0LzMyLzE1LzA2/LzM2MF9GXzQzMjE1/MDY3Nl9UYU1HT1RK/a1FKQUdIdmtmcklh/THZtdks4OGlHU3NF/bC5qcGc"
+                class="menu-item-image w-100" />
+              <h1 class="menu-card-title">curd</h1>
+              <a href="" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div style="text-align: center;" class="col-12">
+            <button class="custom-button" onclick="display('sectionHome')">Home</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- <div class="healthy-food-section pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5">
+          <div class="text-center">
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/healthy-food-plate-img.png"
+              class="healthy-food-section-img"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-md-7">
+          <h1 class="healthy-food-section-heading">
+            Fresh, Healthy, Organic, Delicious Fruits
+          </h1>
+          <p class="healthy-food-section-description">
+            Say no to harmful chemicals and go fully organic with our range of
+            fresh fruits and veggies. Pamper your body and your senses with
+            the true and unadulterated gifts from mother nature. with the true
+            and unadulterated gifts from mother nature.
+          </p>
+          <button class="custom-button" onclick="display('sectionHome')">Go to Home</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+  <div class="cursor1"></div>
+  <div class="cursor2"></div>
+  <script>
+    const pass_field = document.querySelector('.pass-key');
+    const showBtn = document.querySelector('.show');
+    showBtn.addEventListener('click', function () {
+      if (pass_field.type === "password") {
+        pass_field.type = "text";
+        showBtn.textContent = "HIDE";
+        showBtn.style.color = "#3498db";
+      } else {
+        pass_field.type = "password";
+        showBtn.textContent = "SHOW";
+        showBtn.style.color = "#222";
+      }
+    });
+  </script>
+  <script>
+    var cursor1 = document.querySelector(".cursor1");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove", function (e) {
+      cursor1.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
+  </script>
+  <script type="text/javascript"
+    src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
